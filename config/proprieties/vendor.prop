@@ -1,0 +1,23 @@
+# Crypto
+ro.crypto.allow_encrypt_override=true
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.volume.options=aes-256-xts:aes-256-cts:v2
+ro.security.keystore.keytype=sakv2,gak,sgak,rkp
+ro.hardware.keystore=mdfpp
+ro.hardware.gatekeeper=mdfpp
+
+# WLAN
+ro.hardware.wlan.dbs=0
+ro.hardware.wlan.mimo=0
+ro.hardware.wlan.vendor=qcom
+ro.hardware.wlan.chip=wcn3988
+ro.hardware.wlan.router=TL-WR940N
+
+# USB
+vendor.usb.use_ffs_mtp=1
+persist.sys.usb.config=mtp,adb
+
+# Version
+keymaster_ver=4.0

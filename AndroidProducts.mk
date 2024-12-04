@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_m55xq.mk
+    $(LOCAL_DIR)/lineage_m55xq.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_m55xq-user \
-    twrp_m55xq-userdebug \
-    twrp_m55xq-eng
+    lineage_m55xq-user \
+    lineage_m55xq-userdebug \
+    lineage_m55xq-eng
